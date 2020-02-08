@@ -1,12 +1,136 @@
-body {
-    font-size: 16px;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
-
-
-
-
-
-
-.list {
+ul,
+ol {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ .body {
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;  
+}
+
+.main {
+
+
+width: 900px;
+margin: 0 auto;
+}
+.visually_hidden:not(:focus):not(:active),
+input[type="checkbox"].visually_hidden,
+input[type="radio"].visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    word-spacing: normal;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list_iten:not(:nth-child(2n)) {
+    margin-right:55px;
+}
+.site_navigation {
+font-size: 14px;
+list-style: none;
+font-weight: bold;
+text-align: center;
+margin-bottom:100px;
+margin: 50px;
+}
+.site_navigation a {
+    display: iline-block;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "PlayfairDisplay";
+    color: #626262;
+    text-decoration: none;
+    line-height: 22px;
+     
+
+}
+.list1 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.lifestyle{
+    margin-right: 124px;
+    
+}
+.photodiary {
+ margin-right: 100px;
+}
+.music  {
+    margin-right: 95px;
+}
+.list_iten h2 {
+    font-size: 30px;
+    font-weight:400;  
+    font-family: "PlayfairDisplay";
+    color: #626262;
+    text-decoration: none;
+    margin-bottom: 37px;
+}
+.list_iten{
+  width: 420px;  
+  display: inline-block;
+
+
+}
+.description  {
+color: #b4ad9e;
+font-size: 14px;
+line-height:24px; 
+text-transform: uppercase;
+font-family: "Ubuntu";
+margin-bottom: 28px;
+margin-top: 25px;
+
+}
+
+.text {
+    font-size: 17px;
+    line-height: 24px;
+    font-family:"PlayfairDisplay";
+    font-weight: 500;
+    color: #626262;
+
+    }
+.clous {
+    font-size: 20px;
+    line-height: 24px;
+    font-family:"PlayfairDisplay";
+    color: #626262;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid  ;
+    width: 163px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    
+}
+
+
+
