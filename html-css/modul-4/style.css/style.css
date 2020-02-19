@@ -1,0 +1,225 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after {
+    display: table;
+    content: "" ;
+    clear: both;
+}
+
+body {
+    width:  1110px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    float: left;
+    font-family: roboto ;
+    font-weight:200 ;
+    font-size: 30px;
+    line-height: 32px;
+    color: #555251;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 32px;
+} 
+
+
+.navigation {
+ font-weight: 0;
+margin-bottom: 115px;
+}
+.navigation__list{
+float: right;
+margin-top: 34px;
+}
+
+.navigation__list-item {
+        float: left;
+}
+   .navigation__list-item:not(:last-child) {
+       margin-right: 29px;
+   }
+   .navigation__list-link:hover {
+       color: #1abc9c;
+        visibility: visible;
+   }
+.navigation__list-link {
+    font-family: "Open+Sans",sans-serif;
+      text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: 0.40px;
+    color: #0f0101;
+
+    
+}
+
+.section__title {
+    font-family: "Robot";
+    font-weight: 700;
+    font-size: 48px;
+    list-style: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #515151;
+
+}
+.section__title::after {
+    display: block;
+    content: "";
+    width: 160px;
+    height: 7px;
+    background-color: #0cb191;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+ .section__title-item:not(:nth-child(4n)){
+     margin-right: 30px;
+ }
+.section__title-item {
+    width: 255px;
+    
+    float: left;
+}
+ .section__title-item-title {
+    font-family: "Robot",sans-serif;
+     font-weight: 700;
+     color: #ffffff;
+     font-size: 18px;
+     line-height: 32px;
+     background-color:#323232;
+     border: 1px solid;
+     width: 200px;
+     height: 40px;
+     padding: 4px 0 0 12px;
+     text-transform: uppercase;
+ }
+ 
+ 
+  .section__title-item-title:hover {
+     background-color: #1abc9c;
+     visibility: visible;
+ }
+ .section__title-item-nambe {
+     float: right;
+     font-family: "Robot",sans-serif;
+     font-weight: 700;
+     color: #ffffff;
+     font-size: 18px;
+     line-height: 32px;
+     background-color: #8c8c8b;
+     border: px solid;
+     width: 55px;
+     height: 38px;
+     padding: 4px 0 0 12px;
+     text-transform: uppercase;
+     margin: 1px;
+     margin-top: -39px;
+     margin-bottom: 30px;
+ }
+.section__title-item-nambe:hover{
+    background-color:#7fd9c7;
+    visibility: visible;
+}
+.section__title-ter {
+    float: left;
+}
+.section__title-ter:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+.section__title-ret {
+    font-family: "Robot",sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    list-style: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #515151;
+    margin-top: 105px;
+}
+
+ .section__title-ret::after {
+        display: block;
+        content: "";
+        width: 160px;
+        height: 7px;
+        background-color: #0cb191;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+
+.section__title-wer {
+       font-weight: 600;
+       font-size: 18px;
+       list-style: 26px;
+       font-family: "Open Sans";
+       color:#555252;
+       line-height:0,14px;
+       margin-top: 15px;
+}
+
+ .section__title-wer::after {
+     display: block;
+     content: "";
+     width: 135px;
+     height: 3px;
+     background-color: #0cb191;
+     margin: 0 auto;
+     margin-left: 1px;
+     margin-top: 15px;
+    
+ }
+ .section__title-werut {
+     font-size: 14px;
+     list-style: 26px;
+     font-weight: 400;
+     font-family: "Open Sans",sans-serif;
+     color:#555252;
+     line-height: 1.857;
+     margin-top: 30px;
+ }
+ .section__title-clous {
+      display: block;
+      width: 160px;
+      height: 50px;
+      text-align: center;
+      font-family: "Open Sans",sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 26px;
+      color:#fff;
+      background-color:#4ec6ab;
+      border: 1px solid;
+      margin-top: 16px;
+       cursor: pointer;
+ }
+
+ 
