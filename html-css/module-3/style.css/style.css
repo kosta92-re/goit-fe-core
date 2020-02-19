@@ -103,7 +103,7 @@ line-height:24px;
 text-transform: uppercase;
 font-family: "Ubuntu";
 margin-bottom: 28px;
-margin-top: 25px;
+margin-top: 30px;
 
 }
 
@@ -113,7 +113,7 @@ margin-top: 25px;
     font-family:"PlayfairDisplay";
     font-weight: 500;
     color: #626262;
-
+    margin-bottom: 135px;
     }
 .clous {
     font-size: 20px;
@@ -126,9 +126,10 @@ margin-top: 25px;
     width: 150px;
     height: 60px;
     display: block;
-    margin: 0 auto;
-    margin-top: 25px;
+    margin: 0 auto ;
+    margin-top:-85px;
     cursor: pointer;
+    
 }
 
 
