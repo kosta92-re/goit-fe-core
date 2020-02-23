@@ -35,7 +35,10 @@ body {
     margin: 0 auto;
     
 }
-
+.logo::first-letter {
+    font-weight: 700;
+    color: #1abc9c;
+}
 .logo {
     float: left;
     font-family: roboto ;
@@ -47,10 +50,6 @@ body {
     text-transform: uppercase;
     margin-top: 32px;
 } 
-.logo:hover {
-   color: #1abc9c;
-   visibility: visible;
-}
 
 .navigation {
  font-weight: 0;
@@ -78,7 +77,7 @@ margin-top: 34px;
     font-size: 14px;
     line-height: 11px;
     letter-spacing: 0.40px;
-    color: #0f0101;
+    color: hsl(0, 88%, 3%);
 
     
 }
@@ -113,14 +112,14 @@ margin-top: 34px;
 }
 .section__title-item:hover .section__title-item-title {
     background-color: #1abc9c;
-      visibility: visible;
+    visibility: visible;
 
 }
+
 .section__title-item:hover .section__title-item-nambe {
-     background-color: #7fd9c7;
-     visibility: visible;
+    background-color: #7fd9c7;
+    visibility: visible;
 }
-
  .section__title-item-title {
     font-family: "Robot",sans-serif;
      font-weight: 700;
