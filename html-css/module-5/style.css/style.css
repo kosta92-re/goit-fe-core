@@ -36,7 +36,7 @@ body {
     width: 1600px;
     height: 1455px;
     margin: 0 auto;
-background-color: #282828;
+
 }
 .navigation {
     background-color:#ffffff;
@@ -50,8 +50,8 @@ background-color: #282828;
 
  .logo{
     float: left;
-    font-family: roboto;
-    font-weight: 200;
+    font-family: "Roboto";
+    font-weight: 300;
     font-size: 30px;
     line-height: 32px;
     color: #555251;
@@ -142,8 +142,9 @@ background-color: #282828;
     background-position: center;
     background-repeat: no-repeat;
     float: left;
-    background-image: url(../img/g.png);
-    margin-inline-start: 80px;
+    background-image: url(../img/g.png) ;
+    margin-inline-start: 245px;
+    cursor: pointer;
 }
 
 .header__btn-right{
@@ -156,10 +157,14 @@ background-color: #282828;
     float: right;
     background-image: url(../img/h.png);
     background-position: center;
-    margin-inline-end: 80px;
+    margin-inline-end: 245px;
+    cursor: pointer;
 }
 .about {
 background-color: #e9f0fd;
+width: 1600px;
+height: 676px;
+
 }
 
 .sections__title {
@@ -168,7 +173,7 @@ background-color: #e9f0fd;
     color: #515151;
     text-transform: uppercase;
     line-height: 0.667;
-    text-align: center;
+    padding-left: 610px;
     padding-top: 92px;
     
 }
@@ -180,35 +185,36 @@ background-color: #e9f0fd;
     background-color: #0cb191;
     margin: 0 auto;
     margin-top: 30px;
-     
-}
-
-
-.section__title-ter {
-font-size: 48px;
-font-family: "Roboto";
-color: #515151;
-text-transform: uppercase;
-line-height: 0.667;
-padding-inline-start: 660px;
-padding-top: 23px;
-
+    margin-left: 115px;
 
 }
-.about__list:hover .about__list-name{
+
+.container__wer {
+    margin-top: 80px;
+}
+.about__list-item:hover .about__list-name{
     background-color: #1abc9c;
     visibility: visible;
     
 
 }
 
-.about__list-position:hover{
+.about__list-item:hover .about__list-position{
     background-color: #7fd9c7;
     visibility: visible;
 }
+.about__list-position {
+    position: relative;
+    top:-40px;
+}
+.about__list-name {
+    position: relative;
+    top:-40px;
+}
+
 .about__list-name {
     font-family: "Robot", sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     color: #ffffff;
     font-size: 18px;
     line-height: 32px;
@@ -219,9 +225,10 @@ padding-top: 23px;
     padding: 4px 0 0 12px;
     text-transform: uppercase;
     vertical-align: middle;
-     
+    
 } 
 .about__list-position {
+
     float: left;
     font-family: "Robot", sans-serif;
     font-weight: 700;
@@ -251,27 +258,24 @@ padding-top: 23px;
 .about__list {
     margin-inline-start: 245px;
 }
-.overlay__list-item {
-    
-
-
-
+.about__list-name:hover .about__list-img-wrapper {
+    opacity: 1;
+    visibility:visible;
 }
 .about__list-item:hover .overlay {
     opacity: 1;
     visibility:visible
 }
 .overlay {
-     background-color: rgba(114, 114, 114, 0.7);
-     height: 100%;
-     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     height:281px;
+     width: 255px;
      position: absolute;
      top: 0;
      left: 0;
      opacity: 0;
      visibility: hidden;
      border: 10px solid rgba(255, 255, 255, 0.5);
-     
      background-clip: padding-box;
 }
 .about__list-img-wrapper {
@@ -279,9 +283,9 @@ padding-top: 23px;
 }
 .overlay__list {
     position: absolute;
-    left: 50%;
+    left:125px;
     transform: translateX(-50%);
-    bottom: 32px;
+    bottom: 80px;
     
 } 
 .overlay__list-item {
@@ -300,6 +304,8 @@ padding-top: 23px;
      background-position: center;
      background-repeat: no-repeat;
      cursor: pointer;
+     background-color: transparent;
+     color:#ffffff;
 }
 .button__two{
     width: 48px;
@@ -311,6 +317,8 @@ padding-top: 23px;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    background-color: transparent;
+    color:#ffffff;
 }
 
 .button__three {
@@ -324,33 +332,84 @@ padding-top: 23px;
     background-repeat: no-repeat;
     background-color:
     cursor: pointer;
-    
+    background-color: transparent;
+    color:#ffffff;
     
     
 }
 .button__fout {
-    
+   top:5px ;
     width: 164px;
     height: 48px;
-    border-width: 1px;
+    border-width:1px;
     border-style: solid;
     background-color: rgb(50, 50, 50);
     font-family: "Open Sans";
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    border-color:#ffffff;
+    color: #ffffff;
     text-transform: uppercase;
-    background-image: url(../img/a.png);
+    position: relative;
     background-position: left;
     background-repeat: no-repeat;
     cursor: pointer;
     padding-left:45px;
+    
+}
+
+
+.button__fout::before {
+    position: absolute;
+    width: 28px;
+    height: 27px;
+    display: inline-block;
+    content: '';
+    background-image: url(../img/a.png);
+    left:11px;
+    top:11px;
 }
 .overlay__list-item:hover .button__one{
     background-color:#1abc9c;
+    border: 1px solid #1abc9c;
+    visibility: visible;
 }
 .overlay__list-item:hover .button__two{
     background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+    visibility: visible;
+      
 }
 .overlay__list-item:hover .button__three {
     background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+    visibility: visible;
 }
+.dawer {
+  background-color: rgb( 50, 50, 50, 0.9);
+  width: 1600px;
+  height: 94px;
+  
+}
+.dawer__list {
+font-size: 16px;
+font-family: "Open Sans";
+color: rgb(254, 254, 254);
+line-height: 1.75;
+text-align: center;
+padding-top: 39px;
+}
+.dawer__list-ret {
+    color:#ffffff;
+}
+.dawer__list-ret:hover {
+    background-color: #1abc9c;
+    
+}
+
+
+
+
+
+
+
+
