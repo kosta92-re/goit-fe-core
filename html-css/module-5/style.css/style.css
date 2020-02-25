@@ -32,8 +32,9 @@ img {
     clear: both;
 }
 
+
 body {
-    width: 1600px;
+    
     height: 1455px;
     margin: 0 auto;
 
@@ -123,7 +124,7 @@ body {
 .header__subtitle {
     font-family: "Roboto",sans-serif;
     font-weight:300;
-    margin: 0 0 0 428px;
+    margin: 0 0 0 465px;
     text-transform: uppercase;
     letter-spacing: 0.25px;
     line-height: 50px;
@@ -143,7 +144,7 @@ body {
     background-repeat: no-repeat;
     float: left;
     background-image: url(../img/g.png) ;
-    margin-inline-start: 245px;
+    margin-inline-start: 260px;
     cursor: pointer;
 }
 
@@ -157,14 +158,13 @@ body {
     float: right;
     background-image: url(../img/h.png);
     background-position: center;
-    margin-inline-end: 245px;
+    margin-inline-end: 260px;
     cursor: pointer;
 }
 .about {
-background-color: #e9f0fd;
-width: 1600px;
+background-color: 
 height: 676px;
-
+margin: 0 auto;
 }
 
 .sections__title {
@@ -268,7 +268,7 @@ height: 676px;
 }
 .overlay {
      background-color: rgba(0, 0, 0, 0.5);
-     height:281px;
+     height:282px;
      width: 255px;
      position: absolute;
      top: 0;
@@ -386,7 +386,7 @@ height: 676px;
 }
 .dawer {
   background-color: rgb( 50, 50, 50, 0.9);
-  width: 1600px;
+  
   height: 94px;
   
 }
