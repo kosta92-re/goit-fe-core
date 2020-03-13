@@ -72,7 +72,7 @@ body {
     margin-right: 58px;
 }
 
-.navigation__list-link:hover {
+.navigation__list-link-one:hover {
     color: #f38181;
     visibility: visible;
 
@@ -103,15 +103,19 @@ body {
 .navigation__list-link::after {
     display: block;
     content: "";
-    width: 50px;
+    width:100%;
     height: 3px;
     position: absolute;
     margin: 0 auto;
-    margin-top: 11px;
+    margin-top: 15px;
     background: currentColor;
     transform: scaleX(0);
 
 }
+
+
+
+
 
 .heading {
     font-size: 24px;

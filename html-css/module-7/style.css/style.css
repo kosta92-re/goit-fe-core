@@ -76,28 +76,24 @@ img {
     font-family: "Kaushan Script";
     color: #fed136;
     line-height: 1.577;
-    text-align: left;
-    position: relative;
-    margin-top: 35px;
-    margin-left: 7px;
+    
 }
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
     
 }
 
 .navigation__list {
     display: flex;
-    margin-top: 43px;
-
+    justify-content: space-between;
+    width: 485px;
 }
 
 
-.navigation__list-item:not(:last-child) {
-    margin-right: 40px;
-}
+    
 
 .navigation__list-link:hover {
     color:#fed136 ;
@@ -133,6 +129,7 @@ img {
      color: rgb(119, 119, 119);
      text-align: center;
      line-height: 3.5;
+     padding-bottom: 60px;
 }
 
 .services__list-item-title {
@@ -141,7 +138,7 @@ img {
     color: rgb(34, 34, 34);
     font-weight: bold;
     text-align: center;
-    margin-top: 180px;
+    
     
 }   
 .services__list-item-description {
@@ -150,12 +147,10 @@ img {
     color: rgb(119, 119, 119);
     line-height:1.5 ;
     text-align: center;
-    margin-top: 13px;
     }
 .services__list-item-ter {
      width: 274px;
      height: 57px;
-     margin-top: -175px;
      padding-top: 10px;
      background-repeat: no-repeat;
      
@@ -163,9 +158,9 @@ img {
 
 
 .services__list-item-lever-three {
-    display: inline-block;
-    margin-left:100px;
-    margin-top: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
     background-image: url(../img/Icon-Locked.png);
     width: 74px;
     height: 73px;
@@ -173,19 +168,18 @@ img {
     }
 
 .services__list-item-lever-two {
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
     background-image: url(../img/Icon-Laptop.png);
     background-repeat: no-repeat;
     width: 74px;
     height: 73px;
-
     }
 .services__list-item-lever-one {
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 70px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom:20px;
     background-image: url(../img/Icon-Basket.png);
     background-repeat: no-repeat;
     width: 74px;
@@ -198,7 +192,7 @@ img {
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    
+    margin-bottom: 120px;
     }
 
 .container {
@@ -207,8 +201,8 @@ img {
     
    }
 .contact {
-    width: 940px;
-    margin: 370px auto;
+    width: 100%;
+    height: 676px;
     background-image: url(../img/Map\ Image.png);
     background-size: cover;
     background-position: center;
@@ -228,12 +222,10 @@ img {
    
    }
 .contact__form {
-    width: 730px;
-    display: inline-flex;
-    justify-content:space-around ;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 75px;
+    display: flex;
+    justify-content:space-between;
+    
+
    }
 .contact__form-input {
     font-size: 14px;
@@ -251,7 +243,7 @@ img {
     background-color: rgb(255, 255, 255);
     width: 459px;
     height: 54px;
-    margin-top: 25px;
+    margin-bottom: 25px;
       
    }
 .contact__form-message {
@@ -271,8 +263,6 @@ img {
     padding: 20px;
     resize: none;
     flex-basis: 100%;
-    margin-left:481px;
-    margin-top:-214px ;
    }
 .contact__form-input:focus,
 .contact__form-message:focus {
@@ -302,5 +292,5 @@ img {
     margin-top: 28px;
     text-align: center;
     margin-left: 355px;
-    margin-block-end: 115px;
+    border: 0;
    }
