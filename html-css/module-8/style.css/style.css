@@ -1,0 +1,373 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('../fonts/roboto-v20-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v20-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+header {
+    height: 540px;
+    text-align: center;
+    background-size: cover;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+header p {
+    margin: 0 auto;
+}
+
+.wrapper_for {
+    padding-top: 30px;
+
+}
+.wrapper_for_log_up {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding-top: 60px;
+    padding-bottom: 105px;
+    align-items: center;
+    
+    
+}
+
+.sign_up {
+    padding: 7px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+/* .sign_up,
+.log_in {
+    padding: 7px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    
+} */
+
+/* .sign_up:hover, 
+.log_in:hover {
+    border: 2px solid #ffffff;
+}  */
+
+.organization_name {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 130px;
+}
+
+.header_title {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.header_description {
+    width: 220px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.header_link {
+    font-style: 14px;
+    line-height: 1.2;
+    border: 2px solid transparent;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    padding: 7px 50px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.meet_partner_list_item {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.meet_partner_list_item::after {
+    content: "";
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 85px;
+}
+
+.meet_partner_list_item:first-child::after {
+    background-image: url("../img/Shape 1.png");
+    background-color: #ff4e50;
+}
+
+.meet_partner_list_item:nth-child(2)::after {
+    background-image: url("../img/Shape 2.png");
+    background-color: #ffa507;
+}
+
+.meet_partner_list_item:nth-child(3)::after {
+    background-image: url("../img/Shape 3.png");
+    background-color: #1cd7ad;
+}
+
+.meet_partner_list_item:last-child::after {
+    background-image: url("../img/Shape 4.png");
+    background-color: #4e73db;
+}
+
+.meet_partner_title {
+    padding-top: 70px;
+    font-size: 22px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    color: #333333;
+    text-align: center;
+}
+
+.meet_partner_list {
+    list-style: none;
+}
+
+.meet_partner_list_item img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.partner_name {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333333;
+    padding-bottom: 15px;
+}
+
+.partner_description {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #8f8f8f;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.wrapper_for_other_partners {
+    display: block;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.other_partners {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    padding: 7px 75px;
+    color: #ff4e50;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        height: 540px;
+        background-image: url("../img/header.jpg");
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    header {
+        height: 700px;
+        background-image: url("../img/header-2.jpg");
+    }
+    .wrapper_for {
+        padding-top: 0px;
+    }
+    .wrapper_for_log-up {
+        padding: 50px 50px 0px 0px;
+    }
+
+    .organization_name {
+        padding: 50px 0px 0px 50px;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 155px;
+    }
+
+    .header_title {
+        font-size: 52px;
+        margin: 0 auto;
+        display: block;
+        width: 510px;
+    }
+
+    .header_description {
+        font-size: 24px;
+        width: 410px;
+        padding-bottom: 40px;
+    }
+
+    .meet_partner_title {
+        padding-bottom: 35px;
+    }
+
+    .meet_partner_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .meet_partner_list_item {
+        width: 270px;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    .meet_partner_list_item:nth-child(1) {
+        order: 1;
+        margin-right: 20px;
+    }
+
+    .meet_partner_list_item:nth-child(2) {
+        order: 3;
+        margin-right: 20px;
+    }
+
+    .meet_partner_list_item:nth-child(3) {
+        order: 2;
+    }
+
+    .meet_partner_list_item:nth-child(4) {
+        order: 4;
+    }
+
+    .meet_partner_list_item::after {
+        right: 70px;
+    }
+
+    .other_partners {
+        padding: 7px 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        background-image: url("../img/header-3.jpg");
+    }
+
+    .container {
+        width: 1440px;
+    }
+    .wrapper_for {
+        padding-top: 0px;
+    }
+    .wrapper_for_log-up {
+        padding: 50px 250px 0px 0px;
+    }
+
+    .organization_name {
+        padding: 50px 0px 0px 250px;
+    }
+
+    .meet_partner_list_item {
+        width: 220px;
+    }
+
+    .meet_partner_list_item::after {
+        right: 45px;
+    }
+
+    .meet_partner_list_item:nth-child(3) {
+        margin-right: 20px;
+    }
+}
