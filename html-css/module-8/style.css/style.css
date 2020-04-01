@@ -99,24 +99,24 @@ header p {
     
 }
 
-.sign_up {
+/* .sign_up,.log_in {
     padding: 7px 15px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
     margin-left: 20px;
-}
-/* .sign_up,
-.log_in {
-    padding: 7px 15px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    
 } */
 
-/* .sign_up:hover, 
+.sign_up,
+.log_in {
+    padding: 7px 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+}
+
+.sign_up:hover,
 .log_in:hover {
     border: 2px solid #ffffff;
-}  */
+}
 
 .organization_name {
     font-size: 20px;
@@ -341,7 +341,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     header {
         background-image: url("../img/header-3.jpg");
     }
