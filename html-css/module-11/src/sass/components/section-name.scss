@@ -1,0 +1,31 @@
+.section-name {
+  text-align: center;
+  color: $second-gray-color;
+}
+
+.section-name__description {
+  @include fonts($decorative-font, 400, 24px);
+  // font-family: $decorative-font;
+  // font-weight: 400;
+  // font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.section-name__title {
+  margin-top: 0px;
+  text-transform: uppercase;
+  @include fonts($main-font, 700, 30px);
+  // font-family: $main-font;
+  // font-weight: 700;
+  // font-size: 30px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $first-hot-color;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}

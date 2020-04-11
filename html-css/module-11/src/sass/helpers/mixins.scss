@@ -1,0 +1,18 @@
+@mixin fonts($ff, $fw, $fs, $lh: 1.2) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin tablet-media {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop-media {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}

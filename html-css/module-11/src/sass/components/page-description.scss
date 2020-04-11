@@ -1,0 +1,36 @@
+.page-description {
+  text-align: center;
+  color: $primary-white-color;
+}
+
+.page-description__description {
+  @include fonts($decorative-font, 400, 68px);
+  // font-family: $decorative-font;
+  // font-weight: 400;
+  // font-size: 68px;
+  padding-bottom: 40px;
+  margin: 0px;
+}
+
+.page-description__title {
+  @include fonts($main-font, 700, 150px, 140px);
+  // font-family: $main-font;
+  // font-weight: 700;
+  // font-size: 150px;
+  // line-height: 140px;
+  padding-bottom: 120px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.page-description__link {
+  @include fonts($main-font, 700, 14px, 1.2);
+  // font-family: $main-font;
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.2;
+  color: $primary-white-color;
+  text-transform: uppercase;
+  padding: 12px 30px 12px 30px;
+  border: 3px solid $primary-white-color;
+}

@@ -1,0 +1,7 @@
+.site-logo__link {
+  color: $primary-white-color;
+  @include fonts($main-font, 700, 26px)
+  // font-size: 26px;
+  // font-family: $main-font;
+  // font-weight: 700;
+}

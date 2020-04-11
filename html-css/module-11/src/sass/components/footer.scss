@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  font-size: 0px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px $second-white-color solid;
+  height: 62px;
+}
+
+.footer__description {
+  @include fonts($main-font, 700, 14px);
+  // font-family: $main-font;
+  // font-weight: 700;
+  // font-size: 14px;
+  color: $second-gray-color;
+}
+
+.footer__description a {
+  color: $second-gray-color;
+  transition: all 200ms linear;
+
+  &:hover {
+    color: $first-hot-color;
+  }
+}

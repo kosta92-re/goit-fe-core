@@ -1,0 +1,13 @@
+.after-section-name__description {
+  @include fonts($second-font, 400, 15px, 24px);
+  // font-family: $second-font;
+  // font-weight: 400;
+  // font-size: 15px;
+  // line-height: 24px;
+  width: 950px;
+  text-align: center;
+  margin: 0 auto;
+  color: $primary-gray-color;
+  margin-bottom: 88px;
+  margin-top: 36px;
+}

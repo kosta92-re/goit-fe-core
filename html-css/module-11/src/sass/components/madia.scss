@@ -1,0 +1,33 @@
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  header {
+    background-image: linear-gradient(0deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%),
+      url("../images/Layer15@2x.jpg");
+  }
+
+  .services__item:first-child::before {
+    background-image: url("../images/ALARM@2x.png");
+  }
+
+  .services__item:nth-child(2)::before {
+    background-image: url("../images/LINE\ GRAPH@2x.png");
+  }
+
+  .services__item:nth-child(3)::before {
+    background-image: url("../images/COMPUTER\ _\ OK@2x.png");
+  }
+
+  .services__item:nth-child(4)::before {
+    background-image: url("../images/BOOK\ 2@2x.png");
+  }
+
+  .services__item:nth-child(5)::before {
+    background-image: url("../images/HOME@2x.png");
+  }
+
+  .services__item:last-child::before {
+    background-image: url("../images/IMAGE@2x.png");
+  }
+}

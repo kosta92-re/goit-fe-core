@@ -1,0 +1,32 @@
+.email-box {
+  display: flex;
+  align-items: center;
+}
+
+.email-box__input {
+  box-sizing: border-box;
+  @include fonts($second-font, 300, 15px);
+  // font-family: $second-font;
+  // font-weight: 300;
+  // font-size: 15px;
+  border: 1px $second-white-color solid;
+  padding-left: 12px;
+  border-right: none;
+  width: 230px;
+  height: 40px;
+}
+
+.email-box__button {
+  box-sizing: border-box;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  background-color: $border-color;
+  border: none;
+  @include fonts($main-font, 700, 14px);
+  // font-family: $main-font;
+  // font-size: 14px;
+  // font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+%align-hor-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+%pseudo {
+  display: block;
+  content: '';
+}
+
+%align-hor-pos {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
